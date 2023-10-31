@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column Span & Row Span</title>
+</head>
+<body>
+    <h1>Sales Price</h1>
+    <table width="500" border="2" bgcolor="orange" cellpadding="10" cellspacing="4">
+        <tr>
+            <th>Products</th>
+            <th>Original Price</th>
+            <th>Discounted Price</th>
+        </tr>
+        <tr>
+            <th>Printed Unstiched 2 Pcs</th>
+            <td>1500</td>
+            <td>2200</td>
+        </tr>
+        <tr>
+            <th>Printed Stitched 3 Pcs</th>
+            <td colspan="2">2500</td>
+        </tr>
+        <tr>
+            <th>Stitched 2 Pcs</th>
+            <td rowspan="2">3300</td>
+            <td>1800</td>
+        </tr>
+        <tr>
+            <th>Stitched 3 Pcs</th>
+            <td>4000</td>
+        </tr>
+        <tr>
+            <td colspan="3">Discounted Prices are available only at sale.</td>
+        </tr>
+    </table>
+</body>
+</html>
