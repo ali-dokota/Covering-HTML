@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <form action="www.example.com/sign-up">
+      <p>
+        First Name
+        <input type="text" name="firstname" size="15" maxlength="30">
+        <br/>
+        <br/>
+        Last Name
+        <input type="text" name="lastname" size="15" maxlength="30">
+      </p>
+
+
+      <p>
+        Gender
+        <input type="radio" name="gender" checked> Male
+        <input type="radio" name="gender"> Female
+      </p>
+      <p>
+        Passsword:
+        <input type="password" name="password" size="15" maxlength="30">
+      </p>
+
+      <p>
+        Re-enter your password:
+        <input type="password" name="password" size="15" maxlength="30">
+      </p>
+
+
+      <p>
+        Interests:
+        <input type="checkbox" name="interests"> Frontend Web Development
+        <input type="checkbox" name="interests"> Backend Web Development
+        <input type="checkbox" name="interests"> Database Development
+        <input type="checkbox" name="interests"> Cloud Computing 
+      </p>
+
+      <p>
+        Nationality
+        <select name="nationality">
+            <option>Pakistani</option>
+            <option>American</option>
+            <option>Canadian</option>
+            <option>Chinese</option>
+            <option>Indian</option>
+        </select>
+      </p>
+
+      <p>
+        Upload Profile Picture
+        <input type="file" name="profile picture">
+        <br/>
+        <br/>
+        <input type="submit" value="upload">
+      </p>
+      <p>
+        Comments:
+      </p>
+      <textarea name="comments" rows="3" cols="15">Input your message here...</textarea>
+      <br/>
+      <br/>
+      <input type="submit"/>
+    </form>
+</body>
+</html>
